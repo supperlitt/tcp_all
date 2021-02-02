@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinTCPServer", "WinTCPServer\WinTCPServer.csproj", "{BF5390A7-78BF-4342-8825-3CCE7C5832FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinClient", "WinClient\WinClient.csproj", "{E48350A7-7141-430C-BFAD-826D27F25837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinHttpServer", "WinHttpServer\WinHttpServer.csproj", "{0C2D24F5-DCEB-4C66-A863-2FEABD966F86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tcp_ip", "tcp_ip", "{314D5A81-6E5E-4851-A90B-C86E075096EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "httpserver", "httpserver", "{F5F6D59C-B5C2-432E-B6EF-C57CB1760232}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConRPCServer", "ConRPCServer\ConRPCServer.csproj", "{E95AC8FE-626D-4A43-A812-531CE0E85D53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConRPCClient", "ConRPCClient\ConRPCClient.csproj", "{F3EA2F0E-240D-4B1E-9A96-CBE5F7BF59CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rpc", "rpc", "{AA9199F4-D783-4A48-AA22-6C76AF74E0AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF5390A7-78BF-4342-8825-3CCE7C5832FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5390A7-78BF-4342-8825-3CCE7C5832FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5390A7-78BF-4342-8825-3CCE7C5832FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5390A7-78BF-4342-8825-3CCE7C5832FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E48350A7-7141-430C-BFAD-826D27F25837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E48350A7-7141-430C-BFAD-826D27F25837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E48350A7-7141-430C-BFAD-826D27F25837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E48350A7-7141-430C-BFAD-826D27F25837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C2D24F5-DCEB-4C66-A863-2FEABD966F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2D24F5-DCEB-4C66-A863-2FEABD966F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2D24F5-DCEB-4C66-A863-2FEABD966F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2D24F5-DCEB-4C66-A863-2FEABD966F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E95AC8FE-626D-4A43-A812-531CE0E85D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E95AC8FE-626D-4A43-A812-531CE0E85D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E95AC8FE-626D-4A43-A812-531CE0E85D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E95AC8FE-626D-4A43-A812-531CE0E85D53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3EA2F0E-240D-4B1E-9A96-CBE5F7BF59CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3EA2F0E-240D-4B1E-9A96-CBE5F7BF59CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3EA2F0E-240D-4B1E-9A96-CBE5F7BF59CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3EA2F0E-240D-4B1E-9A96-CBE5F7BF59CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF5390A7-78BF-4342-8825-3CCE7C5832FF} = {314D5A81-6E5E-4851-A90B-C86E075096EF}
+		{E48350A7-7141-430C-BFAD-826D27F25837} = {314D5A81-6E5E-4851-A90B-C86E075096EF}
+		{0C2D24F5-DCEB-4C66-A863-2FEABD966F86} = {F5F6D59C-B5C2-432E-B6EF-C57CB1760232}
+		{E95AC8FE-626D-4A43-A812-531CE0E85D53} = {AA9199F4-D783-4A48-AA22-6C76AF74E0AB}
+		{F3EA2F0E-240D-4B1E-9A96-CBE5F7BF59CB} = {AA9199F4-D783-4A48-AA22-6C76AF74E0AB}
+	EndGlobalSection
+EndGlobal
