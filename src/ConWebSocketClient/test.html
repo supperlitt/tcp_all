@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        var url = "ws://192.168.0.103:8800/";
+        var ws = new WebSocket(url);
+        ws.onopen = function (event) {
+            console.log("websocket connection open.");
+            console.log(event);
+        };
+
+        ws.onmessage = function (event) {
+            console.log("websocket message received.")
+            console.log(event.data);
+        };
+
+        ws.onclose = function (event) {
+            console.log("websocket connection close.");
+            console.log(event.code);
+        };
+
+        ws.onerror = function (event) {
+            console.log("websocket connection error.");
+            console.log(event);
+        };
+
+        ws.send("发送的消息，测试");
+    </script>
+</body>
+</html>
